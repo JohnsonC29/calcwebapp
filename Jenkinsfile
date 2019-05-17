@@ -1,6 +1,6 @@
 node{
     stage('SCM Checkout'){
-        git 'https://github.com/MMuniraja/calcwebapp.git'
+        git 'https://github.com/JohnsonC29/calcwebapp.git'
     }
     stage('Compile Package'){
         def mvnHome = tool name: 'M2', type: 'maven'
